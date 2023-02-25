@@ -1,0 +1,77 @@
+{
+	"cell_id": 3595464329075674811,
+	"cells": [
+		{
+			"cell_id": 3833518696515749874,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 10331105673372686540,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"source": "\\begin{dmath*}{}\\text{Property Indices(position=free) attached to~}\\left[m,~\\discretionary{}{}{} n,~\\discretionary{}{}{} p,~\\discretionary{}{}{} q,~\\discretionary{}{}{} r\\right].\\end{dmath*}"
+				}
+			],
+			"source": "{m,n,p,q,r}::Indices;"
+		},
+		{
+			"cell_id": 9088263594057351101,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 1533457307892344566,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 6183901763646921160,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "A_{q r} A_{q r}"
+						}
+					],
+					"source": "\\begin{dmath*}{}A_{q r} A_{q r}\\end{dmath*}"
+				}
+			],
+			"source": "ex:=A_{q r} A_{q r};"
+		},
+		{
+			"cell_id": 3754906783953793118,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": "with open(\"test_algebra.txt\", \"r\") as file:\n\talg=Ex(file.readline())"
+		},
+		{
+			"cell_id": 958370350508827631,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"cells": [
+				{
+					"cell_id": 11345502021897903864,
+					"cell_origin": "server",
+					"cell_type": "latex_view",
+					"cells": [
+						{
+							"cell_id": 17072880155921945037,
+							"cell_origin": "server",
+							"cell_type": "input_form",
+							"source": "{{[P_{a}, K_{b}] -> -D \\delta_{a b}-D_{0} \\delta_{a b} + 2M_{a b}, [K_{b}, P_{a}] -> [P_{a}, K_{b}], [P_{a}, K] -> 2B_{a}, [K, P_{a}] -> [P_{a}, K], [P_{a}, S] -> 2T_{a}, [S, P_{a}] -> [P_{a}, S], [H, S] -> 2D, [S, H] -> [H, S], [M, K] -> 2D_{0}, [K, M] -> [M, K], [H, K_{a}] -> -2B_{a}}, [K_{a}, H] -> [H, K_{a}], [B_{a}, T_{b}] ->  1/2 D_{0} \\delta_{a b} -  1/2 D \\delta_{a b} + M_{a b}, [T_{b}, B_{a}] -> [B_{a}, T_{b}], [M, K_{a}] -> -2T_{a}, [K_{a}, M] -> [M, K_{a}], [P_{a}, B_{b}] -> \\delta_{a b} H, [B_{b}, P_{a}] -> [P_{a}, B_{b}], [P_{a}, T_{b}] -> \\delta_{a b} M, [T_{b}, P_{a}] -> [P_{a}, T_{b}], [H, T_{a}] -> P_{a}, [T_{a}, H] -> [H, T_{a}], [M, B_{a}] -> P_{a}, [B_{a}, M] -> [M, B_{a}], [D, H] -> -2H, [H, D] -> [D, H], [D_{0}, M] -> -2M, [M, D_{0}] -> [D_{0}, M], [D_{0}, K] -> 2K, [K, D_{0}] -> [D_{0}, K], [D, S] -> 2S, [S, D] -> [D, S], [D_{0}, P_{a}] -> -P_{a}, [P_{a}, D_{0}] -> [D_{0}, P_{a}], [D, P_{a}] -> -P_{a}, [P_{a}, D] -> [D, P_{a}], [D_{0}, K_{a}] -> K_{a}, [K_{a}, D_{0}] -> [D_{0}, K_{a}], [D, K_{a}] -> K_{a}, [K_{a}, D] -> [D, K_{a}], [K_{a}, B_{b}] -> \\delta_{a b} K, [B_{b}, K_{a}] -> [K_{a}, B_{b}], [K_{a}, T_{b}] -> \\delta_{a b} S, [T_{b}, K_{a}] -> [K_{a}, T_{b}], [K, T_{a}] -> K_{a}, [T_{a}, K] -> [K, T_{a}], [S, B_{a}] -> K_{a}, [B_{a}, S] -> [S, B_{a}], [D_{0}, B_{a}] -> B_{a}, [B_{a}, D_{0}] -> [D_{0}, B_{a}], [D, B_{a}] -> -B_{a}, [B_{a}, D] -> [D, B_{a}], [D_{0}, T_{a}] -> -T_{a}, [T_{a}, D_{0}] -> [D_{0}, T_{a}], [D, T_{a}] -> T_{a}, [T_{a}, D] -> [D, T_{a}]}"
+						}
+					],
+					"source": "\\begin{dmath*}{}\\left[\\left[{}\\left[P_{a}, \\discretionary{}{}{}K_{b}\\right]{} \\rightarrow -D \\delta_{a b}-D_{0} \\delta_{a b}+2M_{a b},~\\discretionary{}{}{} {}\\left[K_{b}, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -{}\\left[P_{a}, \\discretionary{}{}{}K_{b}\\right]{},~\\discretionary{}{}{} {}\\left[P_{a}, \\discretionary{}{}{}K\\right]{} \\rightarrow 2B_{a},~\\discretionary{}{}{} {}\\left[K, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -{}\\left[P_{a}, \\discretionary{}{}{}K\\right]{},~\\discretionary{}{}{} {}\\left[P_{a}, \\discretionary{}{}{}S\\right]{} \\rightarrow 2T_{a},~\\discretionary{}{}{} {}\\left[S, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -{}\\left[P_{a}, \\discretionary{}{}{}S\\right]{},~\\discretionary{}{}{} {}\\left[H, \\discretionary{}{}{}S\\right]{} \\rightarrow 2D,~\\discretionary{}{}{} {}\\left[S, \\discretionary{}{}{}H\\right]{} \\rightarrow -{}\\left[H, \\discretionary{}{}{}S\\right]{},~\\discretionary{}{}{} {}\\left[M, \\discretionary{}{}{}K\\right]{} \\rightarrow 2D_{0},~\\discretionary{}{}{} {}\\left[K, \\discretionary{}{}{}M\\right]{} \\rightarrow -{}\\left[M, \\discretionary{}{}{}K\\right]{},~\\discretionary{}{}{} {}\\left[H, \\discretionary{}{}{}K_{a}\\right]{} \\rightarrow -2B_{a}\\right],~\\discretionary{}{}{} {}\\left[K_{a}, \\discretionary{}{}{}H\\right]{} \\rightarrow -{}\\left[H, \\discretionary{}{}{}K_{a}\\right]{},~\\discretionary{}{}{} {}\\left[B_{a}, \\discretionary{}{}{}T_{b}\\right]{} \\rightarrow \\frac{1}{2}D_{0} \\delta_{a b} - \\frac{1}{2}D \\delta_{a b}+M_{a b},~\\discretionary{}{}{} {}\\left[T_{b}, \\discretionary{}{}{}B_{a}\\right]{} \\rightarrow -{}\\left[B_{a}, \\discretionary{}{}{}T_{b}\\right]{},~\\discretionary{}{}{} {}\\left[M, \\discretionary{}{}{}K_{a}\\right]{} \\rightarrow -2T_{a},~\\discretionary{}{}{} {}\\left[K_{a}, \\discretionary{}{}{}M\\right]{} \\rightarrow -{}\\left[M, \\discretionary{}{}{}K_{a}\\right]{},~\\discretionary{}{}{} {}\\left[P_{a}, \\discretionary{}{}{}B_{b}\\right]{} \\rightarrow \\delta_{a b} H,~\\discretionary{}{}{} {}\\left[B_{b}, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -{}\\left[P_{a}, \\discretionary{}{}{}B_{b}\\right]{},~\\discretionary{}{}{} {}\\left[P_{a}, \\discretionary{}{}{}T_{b}\\right]{} \\rightarrow \\delta_{a b} M,~\\discretionary{}{}{} {}\\left[T_{b}, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -{}\\left[P_{a}, \\discretionary{}{}{}T_{b}\\right]{},~\\discretionary{}{}{} {}\\left[H, \\discretionary{}{}{}T_{a}\\right]{} \\rightarrow P_{a},~\\discretionary{}{}{} {}\\left[T_{a}, \\discretionary{}{}{}H\\right]{} \\rightarrow -{}\\left[H, \\discretionary{}{}{}T_{a}\\right]{},~\\discretionary{}{}{} {}\\left[M, \\discretionary{}{}{}B_{a}\\right]{} \\rightarrow P_{a},~\\discretionary{}{}{} {}\\left[B_{a}, \\discretionary{}{}{}M\\right]{} \\rightarrow -{}\\left[M, \\discretionary{}{}{}B_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D, \\discretionary{}{}{}H\\right]{} \\rightarrow -2H,~\\discretionary{}{}{} {}\\left[H, \\discretionary{}{}{}D\\right]{} \\rightarrow -{}\\left[D, \\discretionary{}{}{}H\\right]{},~\\discretionary{}{}{} {}\\left[D_{0}, \\discretionary{}{}{}M\\right]{} \\rightarrow -2M,~\\discretionary{}{}{} {}\\left[M, \\discretionary{}{}{}D_{0}\\right]{} \\rightarrow -{}\\left[D_{0}, \\discretionary{}{}{}M\\right]{},~\\discretionary{}{}{} {}\\left[D_{0}, \\discretionary{}{}{}K\\right]{} \\rightarrow 2K,~\\discretionary{}{}{} {}\\left[K, \\discretionary{}{}{}D_{0}\\right]{} \\rightarrow -{}\\left[D_{0}, \\discretionary{}{}{}K\\right]{},~\\discretionary{}{}{} {}\\left[D, \\discretionary{}{}{}S\\right]{} \\rightarrow 2S,~\\discretionary{}{}{} {}\\left[S, \\discretionary{}{}{}D\\right]{} \\rightarrow -{}\\left[D, \\discretionary{}{}{}S\\right]{},~\\discretionary{}{}{} {}\\left[D_{0}, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -P_{a},~\\discretionary{}{}{} {}\\left[P_{a}, \\discretionary{}{}{}D_{0}\\right]{} \\rightarrow -{}\\left[D_{0}, \\discretionary{}{}{}P_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D, \\discretionary{}{}{}P_{a}\\right]{} \\rightarrow -P_{a},~\\discretionary{}{}{} {}\\left[P_{a}, \\discretionary{}{}{}D\\right]{} \\rightarrow -{}\\left[D, \\discretionary{}{}{}P_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D_{0}, \\discretionary{}{}{}K_{a}\\right]{} \\rightarrow K_{a},~\\discretionary{}{}{} {}\\left[K_{a}, \\discretionary{}{}{}D_{0}\\right]{} \\rightarrow -{}\\left[D_{0}, \\discretionary{}{}{}K_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D, \\discretionary{}{}{}K_{a}\\right]{} \\rightarrow K_{a},~\\discretionary{}{}{} {}\\left[K_{a}, \\discretionary{}{}{}D\\right]{} \\rightarrow -{}\\left[D, \\discretionary{}{}{}K_{a}\\right]{},~\\discretionary{}{}{} {}\\left[K_{a}, \\discretionary{}{}{}B_{b}\\right]{} \\rightarrow \\delta_{a b} K,~\\discretionary{}{}{} {}\\left[B_{b}, \\discretionary{}{}{}K_{a}\\right]{} \\rightarrow -{}\\left[K_{a}, \\discretionary{}{}{}B_{b}\\right]{},~\\discretionary{}{}{} {}\\left[K_{a}, \\discretionary{}{}{}T_{b}\\right]{} \\rightarrow \\delta_{a b} S,~\\discretionary{}{}{} {}\\left[T_{b}, \\discretionary{}{}{}K_{a}\\right]{} \\rightarrow -{}\\left[K_{a}, \\discretionary{}{}{}T_{b}\\right]{},~\\discretionary{}{}{} {}\\left[K, \\discretionary{}{}{}T_{a}\\right]{} \\rightarrow K_{a},~\\discretionary{}{}{} {}\\left[T_{a}, \\discretionary{}{}{}K\\right]{} \\rightarrow -{}\\left[K, \\discretionary{}{}{}T_{a}\\right]{},~\\discretionary{}{}{} {}\\left[S, \\discretionary{}{}{}B_{a}\\right]{} \\rightarrow K_{a},~\\discretionary{}{}{} {}\\left[B_{a}, \\discretionary{}{}{}S\\right]{} \\rightarrow -{}\\left[S, \\discretionary{}{}{}B_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D_{0}, \\discretionary{}{}{}B_{a}\\right]{} \\rightarrow B_{a},~\\discretionary{}{}{} {}\\left[B_{a}, \\discretionary{}{}{}D_{0}\\right]{} \\rightarrow -{}\\left[D_{0}, \\discretionary{}{}{}B_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D, \\discretionary{}{}{}B_{a}\\right]{} \\rightarrow -B_{a},~\\discretionary{}{}{} {}\\left[B_{a}, \\discretionary{}{}{}D\\right]{} \\rightarrow -{}\\left[D, \\discretionary{}{}{}B_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D_{0}, \\discretionary{}{}{}T_{a}\\right]{} \\rightarrow -T_{a},~\\discretionary{}{}{} {}\\left[T_{a}, \\discretionary{}{}{}D_{0}\\right]{} \\rightarrow -{}\\left[D_{0}, \\discretionary{}{}{}T_{a}\\right]{},~\\discretionary{}{}{} {}\\left[D, \\discretionary{}{}{}T_{a}\\right]{} \\rightarrow T_{a},~\\discretionary{}{}{} {}\\left[T_{a}, \\discretionary{}{}{}D\\right]{} \\rightarrow -{}\\left[D, \\discretionary{}{}{}T_{a}\\right]{}\\right]\\end{dmath*}"
+				}
+			],
+			"source": "alg;"
+		},
+		{
+			"cell_id": 13255265256262378063,
+			"cell_origin": "client",
+			"cell_type": "input",
+			"source": ""
+		}
+	],
+	"description": "Cadabra JSON notebook format",
+	"version": 1.0
+}
