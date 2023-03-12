@@ -3,7 +3,7 @@
 \left[P_a, S\right]=2 T_a,
  [H, S]=2 D_{+},
  [M, K]=2 D_{-},
- \left[H, K_a\right]=-2 B_a},
+ \left[H, K_a\right]=-2 B_a,
 \left[B_a, T_b\right]=\frac{1}{2} D_{-} \delta_{a b}-\frac{1}{2} D_{+} \delta_{a b}+M_{a b},
 \left[M, K_a\right]=-2 T_a,
 \left[P_a, B_b\right]=\delta_{a b} H,
@@ -31,3 +31,6 @@
 \left[B_a, M_{b c}\right]=\delta_{a b} B_c-\delta_{a c} B_b,
 \left[T_a, M_{b c}\right]=\delta_{a b} T_c-\delta_{a c} T_b,
 \left[M_{a b}, M_{c d}\right]=\delta_{a c} M_{d b}-\delta_{b c} M_{d a}-\delta_{a d} M_{c b}+\delta_{d b} M_{c a},
+\left\{Q_{\tilde{\alpha}}, Q^{\tilde{\beta}}\right\}=-\frac{1}{2}\left(\Gamma^A\right)_{\tilde{\alpha}}^{\tilde{\beta}} \widehat{P}_A,
+\left\{S_{\tilde{\alpha}}, S^{\tilde{\beta}}\right\}=-\frac{1}{2}\left(\Gamma^A\right)_{\tilde{\alpha}}^{\tilde{\beta}} \widehat{K}_A,
+\left\{Q_{\tilde{\alpha}}, S^{\tilde{\beta}}\right\}=-\frac{1}{2} \delta_{\tilde{\alpha}}^{\tilde{\beta}} \widehat{D}-\frac{1}{4}\left(\Gamma^{A B}\right)_{\tilde{\alpha}}^{\tilde{\beta}} M_{A B}+\frac{1}{2} \mathrm{i}\left(\Gamma_{\star}\right)_{\tilde{\alpha}}^{\tilde{\beta}} \widehat{T} 
